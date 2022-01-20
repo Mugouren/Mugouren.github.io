@@ -21,11 +21,8 @@ h1 {
 }
 h2 {
     font-size: 22px;
-    color:#0066ff;
     font-weight:normal;
-    /* text-shadow: 1px 1px 0px black; */
-    
-   
+    color:#0066ff;
 }
 p, li {
     font-size: 18px;
