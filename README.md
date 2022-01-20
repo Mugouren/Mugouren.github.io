@@ -1,1 +1,2 @@
-<a href="https://mugouren.github.io/" target="_blank">https://mugouren.github.io/</a>
+Welcome to my homepage: 
+<a href="https://mugouren.github.io/">https://mugouren.github.io/</a>
