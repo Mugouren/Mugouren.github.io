@@ -10,66 +10,65 @@ body {
     padding: 0 20px 20px 20px;
     border: 0px;
 }
-h1 {  
+/*基本信息*/
+.basic {
+    margin: 0px 15px 250px 15px;
+    padding: 45px 0px 0px 0px;
+}
+/*姓名*/
+#name {
     font-size: 30px;
     font-weight:100;
-    text-align: left;
-    margin-top: 0px;
-    
+    text-align:left;    
     color: #0066cc; 
     text-shadow: 1px 1px 0px black;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 280px;
 }
-#name {
-    margin-left: 280px;
-    padding: 45px 0;
-}
-h2 {
-    font-size: 22px;
-    font-weight:normal;
-    color:#0066ff;
-    margin-left: 30px;
-    margin-top: 20px; 
-    margin-bottom: -10px; 
-}
-p, li {
-    font-size: 18px;
-    /* line-height 后而可以跟不同的参数，如果是数字，就是当前字体大小乘上数字 */
-    line-height: 2;
-    letter-spacing: 1px;
-    font-weight:500;
-    margin-left: 70px;
-}
-li {
-    list-style-type: circle;
-}
-.left-img {
-    float: left;
-    margin-top: -100px;
-    margin-left: 30px;
-    margin-bottom: 0px;
-}
-.next-to-img {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 1px;
-    font-weight:500;
-    text-align: left;
-    margin-left: 280px;
-    margin-top: -45px;
-    margin-bottom: 100px;
-    padding-left: 0px;
-}
-.text-address {
-  font-style: italic;
-  padding-left: 2em;  
-}
+/*照片*/
 #img-avatar {
     width: 200px;
+    float: left;
+    margin: -35px 0px 0px 30px;
+    padding: 0px 0px 0px 0px; 
 }
-#img-xlab {
+/*联系方式（含地址）*/
+.contact-info {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1;
+    letter-spacing: 1px;
+    text-align: left;
+    float: left;
+    margin: 0px 0px 0px 50px;
+    padding: 0px 0px 0px 0px;  
+}
+/*地址*/
+.text-address {
+    font-style: italic;
+    letter-spacing: 0.4px;
+}
+/*小节标题*/
+h2.text-main {
+    font-size: 22px;
+    font-weight:normal;
+    letter-spacing: 1px;
+    color:#0066ff;
+    margin: 0px 0px 0px 0px;
+    padding: 20px 0px 0px 30px;
+}
+/*正文部分*/
+p.text-main {
+    font-size: 18px;
+    font-weight:normal;
+    /* line-height 后而可以跟不同的参数，如果是数字，就是当前字体大小乘上数字 */
+    line-height: 1.5;
+    letter-spacing: 1px;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 0px 10px 50px;
+}
+/*logo*/
+.logo {
     width: 64px;
-    margin-left: 50px;
-    margin-top: 25px;
-    margin-bottom: 30px;
+    margin: 30px 50px;
 }
-
